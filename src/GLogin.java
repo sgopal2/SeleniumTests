@@ -9,7 +9,7 @@ public class GLogin {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MobileDriver ddrive=new MobileDriver();
+		//MobileDriver ddrive=new MobileDriver();
 		System.setProperty("webdriver.gecko.driver", "C://Users/sarath/Desktop/Savitha/SelJar/geckodriver.exe");
 		FirefoxDriver driver=new FirefoxDriver();
 		driver.get("http://gmail.com");
